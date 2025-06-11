@@ -1,3 +1,13 @@
 # ignorar estas pastas
 env/
 testeReciclavel/
+
+#ignorar arquivos de variaveis de ambiente
+#**/config.properties
+src/utils/config.properties
+
+#ignorar arquivos que contenha a palavra exemplo e tenha a extencao.txt
+**/exemplo*.txt
+
+#Bloquear arquivo .HMTL
+**/*.html
